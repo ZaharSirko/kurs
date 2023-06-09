@@ -2,9 +2,6 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "../projects/lib"
 		}
 	],
 	"settings": {
@@ -40,6 +37,5 @@
 			"org.graalvm.*",
 			"io.micrometer.shaded.*"
 		],
-		"appMap.findingsEnabled": true
 	}
 }

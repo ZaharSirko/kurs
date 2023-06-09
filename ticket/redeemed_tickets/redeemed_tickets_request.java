@@ -4,9 +4,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import _connection._connection;
 
-public class redeemed_tickets_request extends _connection {
+public class redeemed_tickets_request  {
     public List<redeemed_tickets_model> getAllRedeemedTicket() throws SQLException {
         List<redeemed_tickets_model> RedeemedTicket = new ArrayList<>();
         

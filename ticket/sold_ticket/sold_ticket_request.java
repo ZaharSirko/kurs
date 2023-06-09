@@ -4,9 +4,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import _connection._connection;
 
-public class sold_ticket_request extends _connection {
+public class sold_ticket_request {
     public List<sold_ticket_model> getAllSoldTickets() throws SQLException {
         List<sold_ticket_model> SoldTicket = new ArrayList<>();
  

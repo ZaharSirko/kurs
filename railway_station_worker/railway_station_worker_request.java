@@ -4,9 +4,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import _connection._connection;
-
-public class railway_station_worker_request extends _connection {
+public class railway_station_worker_request {
     public List<railway_station_worker_model> getAllRailwayStationWorker() throws SQLException {
         List<railway_station_worker_model>  RailwayStationWorker = new ArrayList<>();
         

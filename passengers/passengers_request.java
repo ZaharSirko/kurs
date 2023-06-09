@@ -4,9 +4,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import _connection._connection;
 
-public class passengers_request extends _connection {
+public class passengers_request {
     public List<passengers_model> getAllPassenger() throws SQLException {
         List<passengers_model>  Passengers = new ArrayList<>();
         

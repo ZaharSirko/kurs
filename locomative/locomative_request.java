@@ -3,9 +3,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import _connection._connection;
 
-public class locomative_request extends _connection {
+public class locomative_request {
     public List<locomative_model> getAllLocamatives() throws SQLException {
         List<locomative_model>  Locomative = new ArrayList<>();
         

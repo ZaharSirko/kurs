@@ -4,10 +4,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import _connection._connection;
 
-
-public class train_request extends _connection {
+public class train_request  {
     public List<train_model> getAllTrainRoute() throws SQLException {
         List<train_model> Train = new ArrayList<>();
  

@@ -4,9 +4,8 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-import _connection._connection;
 
-public class brigade_worker_request extends _connection {
+public class brigade_worker_request {
     public List<brigade_worker_model> getAllBrigadeWorker() throws SQLException {
         List<brigade_worker_model>  BrigadeWorker = new ArrayList<>();
         

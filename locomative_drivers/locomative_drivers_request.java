@@ -4,9 +4,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import _connection._connection;
 
-public class locomative_drivers_request extends _connection {
+public class locomative_drivers_request  {
     public List<locomative_drivers_model> getAllLocamativeDrivers() throws SQLException {
         List<locomative_drivers_model>  LocomativeDriver = new ArrayList<>();
         
