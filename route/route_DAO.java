@@ -1,16 +1,13 @@
 package  route;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-
 import _connection._connection;
 
 public class route_DAO extends _connection implements route_interface {
     public route_DAO(){
      conn();
     }
-
     @Override
     public List<route> getAllRoutes(){
         List<route> routes = new ArrayList<>();
